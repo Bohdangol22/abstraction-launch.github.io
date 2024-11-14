@@ -1,0 +1,162 @@
+@import url(./refresh.css);
+
+.header {
+  border-bottom: solid 1px #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Тень */
+    padding: 10px; /* Внутренние отступы */
+}
+.container{
+  width: 1220px;
+  margin:  0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header-logo {
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+.firstTwoLetter{
+  color: #FFD700;
+}
+.lastTwoLetter{
+  color: #C0C0C0;;
+}
+.menu-list{
+display: flex;
+justify-content: space-between;
+align-items:center;
+gap: 20px;
+}
+.menu-link{
+
+}
+.menu-text{
+  text-decoration: none;
+  color: #000;
+}
+.header-navigation {
+}
+.main {
+}
+.section1 {
+}
+.main-general_content {
+}
+.general-photo_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.general-img {
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Тень вокруг изображения */
+    border-radius: 8px; /* Опционально: закругленные углы */
+}
+.text-gen_div {
+  position: absolute;
+}
+
+.general-title {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.general-text {
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+.last-text {
+margin-bottom: 30px;
+}
+.last-title{
+  font-size: 14px;
+}
+.section2 {
+}
+.page-title {
+
+    text-align: center;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  .slider-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    
+  }
+  .slider-last_text{
+    font-size: 14px; 
+  }
+  .reznic-painting{
+    text-align: center;
+margin-top: 50px;
+margin-bottom: 40px;
+  }
+  .image-name {
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 20px;
+  }
+ .puty-img{
+
+ }
+ .polinii-img{
+
+ }
+  .footer{
+    padding: 20px; 
+    text-align: center;
+    color:#000;
+    border-top: solid 1px #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Тень */
+  }
